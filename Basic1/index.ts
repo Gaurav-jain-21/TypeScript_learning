@@ -10,7 +10,7 @@ let tsHard: boolean = false;
 tsHard = true;
 console.log(tsHard);
 // here we're inferring the types!
-let tech = "TypeScript";
+let tech1 = "TypeScript";
 let favNumber1 = 8;
 let isWeak = true;
-console.log(tech, favNumber1, isWeak);
+console.log(tech1, favNumber1, isWeak);
