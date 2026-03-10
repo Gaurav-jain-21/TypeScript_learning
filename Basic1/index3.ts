@@ -14,4 +14,14 @@ const greet = (person: string = "Anonymous") => {
 };
 const res = greet();
 console.log(res);
-2
+//Regular Function
+function double1(x: number): number{
+    return x*x;
+}
+const res2= double1(2);
+console.log(res2);
+
+const result=(x:number)=>{
+    return x*x;
+}
+console.log(result(3));
