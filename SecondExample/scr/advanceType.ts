@@ -17,3 +17,11 @@ console.log(lead);
 type Id=string|number;
 let UerId:Id="userId123";
 console.log(UerId)
+
+//Function Type the type of a function
+let add:(x:number, y:number)=>number;
+add=(x,y)=>x+y;
+console.log(add(2,5));
+// const add =(x:number , y:number):number =>{
+//     return x+y;
+// }
