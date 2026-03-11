@@ -37,3 +37,22 @@ function serve(chai:KulhadChai|Cutting){
         return chai
     }
 }
+
+
+type ChaiOrder={
+  type: string
+  suger: number
+}
+
+function isChaiOrder(obj:any): obj is ChaiOrder{
+  return (
+    typeof obj === "object" && obj !== null && typeof obj.type==="string" && typeof obj.suger==="number"
+  )
+}
+
+function serverOrder(item: ChaiOrder | string){
+  if(isChaiOrder(item)){
+    return `Serving ${item.type} chai with ${item.suger}`
+  }
+  return `Serving custom Chai : ${item}`
+}
