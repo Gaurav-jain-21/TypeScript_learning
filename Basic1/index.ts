@@ -14,3 +14,4 @@ let tech1 = "TypeScript";
 let favNumber1 = 8;
 let isWeak = true;
 console.log(tech1, favNumber1, isWeak);
+console.log("we dont talk any more like we do");
