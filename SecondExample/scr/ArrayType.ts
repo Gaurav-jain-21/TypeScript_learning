@@ -13,3 +13,5 @@ console.log(students);
 
 var collegeName: ReadonlyArray<string>=["iit delhi", "rk university"];//it only give the access to read the data;
 // collegeName.push("kiit");
+let userName: Array<string>=["Garuav","ram"];
+console.log(userName);
