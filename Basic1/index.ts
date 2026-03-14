@@ -15,3 +15,4 @@ let favNumber1 = 8;
 let isWeak = true;
 console.log(tech1, favNumber1, isWeak);
 console.log("we dont talk any more like we do");
+console.log("i just have to find the one you were look at we were looking for")
