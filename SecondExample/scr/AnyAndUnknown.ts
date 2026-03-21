@@ -13,4 +13,7 @@ console.log(typeof values);
 // Unknown Data type: the unknown type in TypeScript is similar to any, but it's safer because it forces type checking before performing operation on the value.
 var value1: string | number = "anil";
 value1 = 100;
-console.log(value1);
+value1 = "Gaurav Jain";
+if (typeof value1 == "string") {
+  console.log(value1.toUpperCase());
+}
