@@ -13,3 +13,8 @@ console.log(result);
 const double = (x: number, y: number) => x * y;
 const res = double(2, 10);
 console.log(res);
+function greet(person: string = "hello"){
+    return `Hello ${person}`
+}
+
+console.log(greet())
